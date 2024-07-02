@@ -1,0 +1,22 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    background: var( --cor-magnolia);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: var(--cor-branco);
+    width: 70vw;
+    height: 90vh;
+    border-radius: 30px;
+    box-shadow:1px 1px 10px 0 var(--cor-cinza-claro);
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}

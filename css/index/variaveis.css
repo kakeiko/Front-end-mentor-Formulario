@@ -1,0 +1,13 @@
+:root{
+    --cor-azul-marinho: hsl(213, 96%, 18%);
+    --cor-azul-arroxeado: hsl(243, 100%, 62%);
+    --cor-azul-pastel: hsl(228, 100%, 84%);
+    --cor-azul-claro: hsl(206, 94%, 87%);
+    --fonte-principal: 'Ubuntu';
+    --cor-vermelho-morango: hsl(354, 84%, 57%);
+    --cor-cinza-claro: hsl(229, 24%, 87%);
+    --cor-cinza-legal: hsl(231, 11%, 63%);
+    --cor-magnolia: hsl(217, 100%, 97%);
+    --cor-alabastro: hsl(231, 100%, 99%);
+    --cor-branco: hsl(0, 0%, 100%);
+}

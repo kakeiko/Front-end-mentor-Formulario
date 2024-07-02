@@ -1,0 +1,76 @@
+.area-step-4-ativo{
+    width: 40vw;
+    margin: 3em .7em 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-step-4{
+    color: var(--cor-azul-marinho);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+}
+.text-step-4-conteudo{
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0 2em 0;
+}
+.planos{
+    background-color: var(--cor-alabastro);
+    border-radius: 10px;
+}
+.plano-escolhido{
+    margin: 1em 1em 0 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-plano, .preco-plano{
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-azul-marinho);
+}
+.btn-change{
+    border: 0;
+    background-color: var(--cor-alabastro);
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    text-decoration: underline;
+    margin: 0 1em 1em 1em;
+}
+.btn-change:hover{
+    color: var(--cor-azul-arroxeado);
+}
+.linha-plano{
+    width: 450px;
+    border: 1px solid var(--cor-cinza-claro);
+}
+.planos-adds{
+    margin: 2em 1em 3em 1em;
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1em 0;
+}
+.add-plano, .preco-add{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-cinza-legal);
+}
+.total-plano{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 1em; 
+}
+.text-total{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-cinza-legal);
+}
+.preco-total{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: var(--cor-azul-arroxeado);
+}

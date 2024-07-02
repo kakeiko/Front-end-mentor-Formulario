@@ -1,0 +1,93 @@
+.area-step-1-ativo{
+    width: 37vw;
+    margin: 3em 3em 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.desativo{
+    display: none;
+}
+.titulo-step-1{
+    color: var(--cor-azul-marinho);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+}
+.text-step-1-conteudo{
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0 3em 0;
+}
+.titulo-form{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-azul-marinho);
+}
+.inp-form{
+    padding: 1px 20px;
+    width: 400px;
+    height: 35px;
+    border: 1.5px solid var(--cor-cinza-claro);
+    border-radius: 7px;
+    margin: .7em 0 2em 0;
+    color: var(--cor-azul-marinho);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.inp-form:focus{
+    outline: 1.5px solid var(--cor-azul-marinho);
+}
+.inp-form::placeholder{
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+}
+.btns{
+    margin: 3em 0 0 20em;
+}
+.btn-next{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-alabastro);
+    background: var(--cor-azul-marinho);
+    border: 1px solid var(--cor-azul-marinho);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.label-errado{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.text-required-ativo{
+    color: var(--cor-vermelho-morango);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+.inp-required{
+    padding: 1px 20px;
+    width: 400px;
+    height: 35px;
+    border: 1.5px solid var(--cor-vermelho-morango);
+    border-radius: 7px;
+    margin: .7em 0 2em 0;
+    color: var(--cor-azul-marinho);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+.inp-required::placeholder{
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+}

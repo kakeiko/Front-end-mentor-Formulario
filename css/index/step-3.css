@@ -1,0 +1,80 @@
+.area-step-3-ativo{
+    width: 40vw;
+    margin: 3em .7em 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-step-3{
+    color: var(--cor-azul-marinho);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+}
+.text-step-3-conteudo{
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0 2em 0;
+}
+.select-conteudo{
+    border: 1.5px solid var(--cor-cinza-claro);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 1em 0;
+    cursor: pointer;
+}
+.select-conteudo:hover{
+    border: 1.5px solid var(--cor-azul-arroxeado);
+    cursor: pointer;
+}
+.select-conteudo-ativo{
+    border: 1.5px solid var(--cor-azul-arroxeado);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 1em 0;
+    background-color: var(--cor-magnolia);
+    cursor: pointer;
+}
+.text-select-area{
+    display: flex;
+    flex-direction: column;
+}
+.inp-select {
+    cursor: pointer;
+    margin: 0 0 0 1em;
+    width: 15px;
+    height: 15px;
+
+}
+.titulo-select{
+    padding: 20px 90px 5px 20px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-azul-marinho);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.text-select{
+    padding: 0 115px 20px 20px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza-legal);
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.price-select{
+    padding: 30px 10px 30px 80px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-azul-arroxeado);
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+}

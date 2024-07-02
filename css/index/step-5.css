@@ -1,0 +1,27 @@
+.area-step-5-ativo{
+    width: 40vw;
+    margin: 0 .7em 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-thanks{
+    width: 80px;
+    margin-bottom: 2em;
+}
+.titulo-step-5{
+    color: var(--cor-azul-marinho);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+}
+.text-step-5{
+    color: var(--cor-cinza-legal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0 2em 0;
+    text-align: center;
+    line-height: 24px;
+}
